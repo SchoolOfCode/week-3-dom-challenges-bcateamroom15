@@ -23,18 +23,20 @@ const grabColorPicker = document.getElementById("colorPicker");
 // we need to access the color property of the canvas
 //change the css property of the .canvas object
 function changeColor(event) {
-  grabColorPicker.addEventListener("input", );
+  
   // event.target.value
-  grabCanvas.style.backgroundColor = event.target.value
+  grabCanvas.style.backgroundColor = event.target.value;
 }
+grabColorPicker.addEventListener("input", changeColor);
+
 //4. Call the function with addEventListener
 
 
 // We need to access the css property background-color
 //How do we do this?
-const canvasStyle = getComputedStyle(grabCanvas);
-console.log(canvasStyle);
-console.log(canvasStyle.backgroundColor);
+//const canvasStyle = getComputedStyle(grabCanvas);
+//console.log(canvasStyle);
+//console.log(canvasStyle.backgroundColor);
 
 
 //can we log the color property of colorPicker
