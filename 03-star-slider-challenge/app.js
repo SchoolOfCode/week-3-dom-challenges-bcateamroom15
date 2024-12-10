@@ -13,3 +13,36 @@ Expected Outcomes:
 */
 
 // Place your plan and solution below!
+
+//1.grab the slider.container
+const sliderContainer = document.querySelector(".slider-container");
+
+
+//2.grab the star-icon 
+
+let starIcon = document.querySelector(".star-icon");
+
+//3.attempt to change the value using js
+
+let newVariable = document.querySelector(".star-icon").innerHTML="newtext";
+
+//4. link the slider to the newVariable
+
+function replaceStars(event) {
+
+  starIcon.innerHTML = 
+}
+
+let newStars = addEventListener()
+
+//function changeColor(event) {
+  
+  // event.target.value
+  //grabCanvas.style.backgroundColor = event.target.value;
+//}
+// document.getElementById('id_element_in_html').innerHTML = `<li> ${somejsvar}</li>
+console.log(newVariable);
+//console.log(starIcon);
+//change the display to a word - test
+
+//can we just access the content of the star-icon

@@ -52,4 +52,4 @@ grabColorPicker.addEventListener("input", changeColor);
 // grabColorPicker.value
 //it's a number!
 
-console.log(changeColor())
+//console.log(changeColor())
